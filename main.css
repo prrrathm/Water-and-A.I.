@@ -1,14 +1,14 @@
 @font-face{
     font-family: comfortaa;
-    src: url("comfortaa.ttf");
+    src: url("/fonts/comfortaa.ttf");
 }
 @font-face{
     font-family: april;
-    src: url("april.ttf");
+    src: url("/fonts/april.ttf");
 }
 @font-face{
     font-family: bebas;
-    src: url("bebas.ttf");
+    src: url("/fonts/bebas.ttf");
 }
 body{
     background-color: #101010;
