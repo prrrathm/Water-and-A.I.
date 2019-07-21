@@ -16,8 +16,8 @@ body{
     font-family: 'comfortaa',sans-serif;
 }
 .parts{
-
+    height: 100vh;
 }
-#one{
-
+#one h1{
+    font-size: 50px;
 }
