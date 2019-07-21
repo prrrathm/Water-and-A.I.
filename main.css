@@ -1,0 +1,23 @@
+@font-face{
+    font-family: comfortaa;
+    src: url("comfortaa.ttf");
+}
+@font-face{
+    font-family: april;
+    src: url("april.ttf");
+}
+@font-face{
+    font-family: bebas;
+    src: url("bebas.ttf");
+}
+body{
+    background-color: #101010;
+    color: #eee; 
+    font-family: 'comfortaa',sans-serif;
+}
+.parts{
+
+}
+#one{
+
+}
