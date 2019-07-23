@@ -10,14 +10,63 @@
     font-family: bebas;
     src: url("/fonts/bebas.ttf");
 }
+@font-face{
+    font-family: major;
+    src: url("/fonts/MajorMonoDisplay.ttf");
+}
 body{
     background-color: #101010;
     color: #eee; 
     font-family: 'comfortaa',sans-serif;
+    margin: 0;
+    letter-spacing: 2px;
 }
 .parts{
     height: 100vh;
+    background-size: cover;
+
+}
+#one{
+    font-family: 'major',sans-serif;
+    overflow: hidden;
 }
 #one h1{
-    font-size: 50px;
+    margin: 0;
+    font-size: 70px;
+    z-index: 3;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    width: 100%;
+}
+#video-container{
+    display: block;
+    position: relative;
+    top: 0;
+    height: 70vh;
+    z-index: -2;
+}
+video{
+    width: 100%;
+}
+#water-background{
+    background-color: rgba(10, 60, 70, 0.3);
+    background-size: cover;
+    display: inline-block;
+    font-size: 270px;
+    color: transparent;
+    font-weight: 100;
+    letter-spacing: 30px;
+    background-position: fixed;
+    font-family: 'bebas',sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 6px #3060aa;
+}
+.black{
+    display: block;
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(10, 10, 10, 0.45)
 }
