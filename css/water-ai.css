@@ -13,7 +13,7 @@
     font-family: 'bebas',sans-serif;
     margin: 70px;
     color:#308090;
-    -webkit-text-stroke: 1px #101010;
+    -webkit-text-stroke: 0.6px #101010;
 }
 #water-ai h1::first-line{
     color:#eee;
