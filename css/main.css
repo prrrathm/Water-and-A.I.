@@ -14,6 +14,10 @@
     font-family: major;
     src: url("/fonts/MajorMonoDisplay.ttf");
 }
+html{
+    scroll-behavior: smooth;
+    transition: 2s;
+}
 body{
     background-color: #040404;
     color: #eee; 
