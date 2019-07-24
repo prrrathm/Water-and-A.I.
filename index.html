@@ -21,10 +21,10 @@
     <div id="nav-box">
         <ul id="lister">
             <img src="/img/cross.png" id="nav-closer" onclick="close_menu()">
-            <li><a class="nav-a">Home</a></li>
-            <li><a class="nav-a">About A.I.</a></li>
-            <li><a class="nav-a">Water and <br>A.I.</a></li>
-            <li><a class="nav-a">Projects</a></li>
+            <li><a class="nav-a" href="#home">Home</a></li>
+            <li><a class="nav-a" href="#ai">About A.I.</a></li>
+            <li><a class="nav-a" href="#water-ai">Water and <br>A.I.</a></li>
+            <li><a class="nav-a" href="#projects">Projects</a></li>
         </ul>
     </div>
     <div class="parts" id="home">
@@ -46,7 +46,7 @@
         </p>
     </div>
     <div class="parts" id="water-ai">
-        <div class="black" style="background-color: rgba(4, 40, 60, 0.45)">
+        <div class="black" style="background-color: rgba(4, 40, 60, 0.55)">
             <h1>How A.I. will and is helping in water Conservation?</h1>
             <p>
                 Water is essential for life on this planet. In recent years, however, 
@@ -59,23 +59,32 @@
         </div>
     </div>
     <div class="parts" id="projects">
-        <div class="projects" id="project-1"></div>
-        <div class="projects" id="project-2"></div>
+        <div class="projects" id="project-1">
+            <h1>InTELLIgEnT IrrIgaTIOn System</h1><br>
+            <a href="irrigation.html" class="project-link" >Go There</a>
+        </div>
+        <div class="projects" id="project-2">
+                <h1>waTEr dISTrIbuTIOn nETwOrk</h1><br>
+                <a href="distribution.html" class="project-link" id="second-link">Go There</a>
+        </div>
     </div>
 </body>
 <script>
     var menu_box = document.getElementById('nav-box');
     var menu_closer = document.getElementById('nav-closer');
-    menu_box.setAttribute('style','width: 0;');
+
+    menu_box.setAttribute('style','width: 0; ');
     menu_closer.setAttribute('style','display: none;');
+    
     function opener(){
-        menu_box.setAttribute('style','width: 400px;');
+        menu_box.setAttribute('style','width: 400px; border-left: 30px solid #303040;');
         menu_closer.setAttribute('style','display: block;');
         document.body.style.marginRight = 400;
     }
+    
     function close_menu(){
         menu_closer.setAttribute('style','display: none;');
-        menu_box.setAttribute('style','width: 0;');
+        menu_box.setAttribute('style','width: 0; border-left: 10px solid #303040;');
     }
 </script>
 </html>

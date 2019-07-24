@@ -8,10 +8,16 @@
     height: 150vh;
 }
 #water-ai h1{
-    font-size: 90px;
-    line-height: 80px;
+    font-size: 100px;
+    line-height: 90px;
     font-family: 'bebas',sans-serif;
     margin: 70px;
+    color:#308090;
+    -webkit-text-stroke: 1px #101010;
+}
+#water-ai h1::first-line{
+    color:#eee;
+    -webkit-text-stroke: 1px #eee;
 }
 #water-ai p{
     margin: 70px;

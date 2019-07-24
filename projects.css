@@ -1,0 +1,55 @@
+#projects{
+    background-image: linear-gradient(90deg, #fe6f27, #2f2d29)
+}
+.projects{
+    display: inline-block;
+    height: 100vh;
+    width:48%;
+    widows: 40em;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.projects h1{
+    margin-top: 150px; 
+    font-size: 60px;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+    font-family: 'major',sans-serif;
+}
+#project-1{
+    background-color: #fe6f27;
+    color: #2f2d29;
+}
+#project-2{
+    background-color: #2f2d29;
+    color: #fe6f27;
+}
+.project-link{
+    text-decoration: none;
+    color: inherit;
+    font-size: 60px;    
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fe6f27; 
+    background-color: #2f2d29;
+    transition: 300ms;
+}
+#second-link{
+    background-color: #fe6f27; 
+    color: #2f2d29;
+}
+.project-link:hover{
+    padding: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 65px;
+    box-shadow: 10px 10px 0 #2f2d29;
+    border: 5px solid #fe6f27; 
+}
+#second-link:hover{
+    box-shadow: 10px 10px 0 #fe6f27;
+    border: 5px solid #2f2d29;
+}

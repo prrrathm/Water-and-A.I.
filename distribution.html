@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intelligent Irrigation System</title>
+    <style>
+        @font-face{
+            font-family: comfortaa;
+            src: url("/fonts/comfortaa.ttf");
+        }
+        @font-face{
+            font-family: bebas;
+            src: url("/fonts/bebas.ttf");
+        }
+        body{
+            margin: 0;
+            letter-spacing: 2px;
+            font-family: 'comfortaa',sans-serif;
+            background-image: url('/img/field.png');
+            background-position: bottom;
+            background-attachment: fixed;
+            background-size: cover; 
+        }
+        h1{
+            font-family: 'bebas',sans-serif;
+            height: 95vh;
+            text-align: center;
+            font-size: 120px;
+            overflow: hidden; 
+            margin: 0;
+            color: #eee;
+            font-weight: 900;
+            letter-spacing: 20px;
+            line-height: 140px;
+        }
+        .black{
+            height: inherit;
+            width: 100%;
+            background-color: rgba(254, 111, 39, 0.3);
+            padding-top: 150px; 
+        }
+        p{
+            /*#fe6f27*/
+            color: #fe6f27;
+            background-color: #27252a;
+            margin: 0;
+            padding: 60px;
+            font-size: 22px;
+            margin-bottom: 300px;
+            line-height: 35px;
+            border: 20px solid #fe6f27;
+        }
+        #source{
+            color: #fe6f27;
+            border: 5px solid #fe6f27;
+            text-decoration: none;
+            font-size: 40px;
+            margin: 20px;
+            padding: 20px;
+        }
+        #source:hover{
+            color:#27252a;
+            background-color: #fe6f27;
+        }
+        #back{
+            position: fixed;
+            text-decoration: none;
+            font-size: 40px;
+            padding: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin: 30px;
+            color: #27252a;
+            background-color: #fe6f27;
+            border: 10px solid #fe6f27;
+            transition: 300ms;
+        }
+        #back:hover{
+            background-color: #27252a;
+            color: #fe6f27;
+            padding: 25px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" id="back"> < Go Back</a>
+    <h1>
+        <div class="black">
+        Water<br>Distribution<br>Network
+        </div>
+    </h1>
+<p>    
+    This paper describes an ongoing work on the application of machine learning techniques in the domain of water 
+    distribution networks. This research is performed in the framework of the European project WATERNET, whose aim 
+    is to develop a system to control and manage water distribution networks. WATERNET is composed of a supervision 
+    system, a distributed information management subsystem, an optimization subsystem, a water quality monitoring 
+    subsystem, and a simulation subsystem. In addition to these components, a machine learning subsystem is included to 
+    extract knowledge from historical data and improve the performance of the water management system. This paper is 
+    focused on the approach and methodology followed for the development of the machine learning subsystem. The basic 
+    raw material for this work are historical data from a Portuguese water distribution company that has 45 water stations
+    and some of them with six years of data collected every five minutes. The paper also shows the first results obtained,
+    discusses difficulties found in the performed experiments and introduces an architecture based on qualitative models/causal 
+    relationships to ease the process of knowledge extraction from the historical data and the assessment of the extracted knowledge.
+    <br><br><br>
+    <a id="source" target="new" href="https://www.sciencedirect.com/science/article/pii/S1088467X98000304">Source</a>
+</p>    
+</body>
+</html>
