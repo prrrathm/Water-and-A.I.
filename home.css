@@ -1,0 +1,36 @@
+#home{
+    font-family: 'major',sans-serif;
+    height: 150vh;
+    overflow: hidden;
+}
+#home h1{
+    margin: 0;
+    font-size: 60px;
+    z-index: 3;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    width: 100%;
+}
+#video-container{
+    display: block;
+    position: relative;
+    top: 0;
+    height: 150vh;
+    z-index: -2;
+}
+video{
+    width: 100%;
+}
+#water-background{
+    background-color: rgba(10, 60, 70, 0.3);
+    background-size: cover;
+    font-size: 270px;
+    color: transparent;
+    font-weight: 100;
+    letter-spacing: 70px;
+    background-position: fixed;
+    font-family: 'bebas',sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 6px #3060aa;
+}

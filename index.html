@@ -4,20 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/img/water(1).png">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="ai.css">
+    <link rel="stylesheet" href="water-ai.css">
+    <link rel="stylesheet" href="projects.css">
+    <script src="main.js"></script>
     <title>Water and A.I.</title>
 </head>
 <body>
-    <div class="parts" id="one">
+    <div id="nav-opener" onclick="opener()">
+        <img src="/img/water.png">
+    </div>
+    <div id="nav-box">
+        <ul id="lister">
+            <img src="/img/cross.png" id="nav-closer" onclick="close_menu()">
+            <li><a class="nav-a">Home</a></li>
+            <li><a class="nav-a">About A.I.</a></li>
+            <li><a class="nav-a">Water and <br>A.I.</a></li>
+            <li><a class="nav-a">Projects</a></li>
+        </ul>
+    </div>
+    <div class="parts" id="home">
         <div class="black">
-        <h1><div id="water-background">Water</div><br> and arTIFICIaL InTELLIgEnCE</h1>
+        <h1><div id="water-background">Water</div> and arTIFICIaL InTELLIgEnCE</h1>
         </div>
         <div id="video-container"> 
             <video src="img/earth.mp4" autoplay loop></video>
         </div>
     </div>
-    <div class="parts" id="two">
-        
+    <div class="parts" id="ai">
+        <h1>Artificial Intelligence</h1>
+        <p>
+            Artificial Intelligence is the new big thing, it has grown immensly over the past few years and its still growing and doing wonders as you read this.
+            It holds a great potential in changing the way we live and its doing it very well your phone, Smart TV, Home Assistants are the best
+            examples if you want to know how much it can accomplish.Talking about how its coding, It works differently than normal programs and codes,
+            rather its better to compare it with alcohol, like older the alcohol the better it becomes, similarly older and more used an A.I. code is the 
+            better it becomes or technically, it becomes more accurate with usage.
+        </p>
+    </div>
+    <div class="parts" id="water-ai">
+        <div class="black" style="background-color: rgba(4, 40, 60, 0.45)">
+            <h1>How A.I. will and is helping in water Conservation?</h1>
+            <p>
+                Water is essential for life on this planet. In recent years, however, 
+                we have taken the resource for granted. Concerned by the sudden peak in the occurrences of droughts and other water scarcity 
+                situations in different parts of the world, scientists are looking for better, more robust ways to implement water resource management. 
+                Though the need to effectively manage water and its resources hasn't changed over the years, scientists have realized that they need 
+                to opt for a different approach for designing and maintaining the existing water management systems. By applying technologies like AI in 
+                water resource management, scientists are now building sustainable water supplies for people around the world. 
+            </p>
+        </div>
+    </div>
+    <div class="parts" id="projects">
+        <div class="projects" id="project-1"></div>
+        <div class="projects" id="project-2"></div>
     </div>
 </body>
+<script>
+    var menu_box = document.getElementById('nav-box');
+    var menu_closer = document.getElementById('nav-closer');
+    menu_box.setAttribute('style','width: 0;');
+    menu_closer.setAttribute('style','display: none;');
+    function opener(){
+        menu_box.setAttribute('style','width: 400px;');
+        menu_closer.setAttribute('style','display: block;');
+        document.body.style.marginRight = 400;
+    }
+    function close_menu(){
+        menu_closer.setAttribute('style','display: none;');
+        menu_box.setAttribute('style','width: 0;');
+    }
+</script>
 </html>
