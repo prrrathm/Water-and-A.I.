@@ -3,7 +3,7 @@
     font-size: 25px;
     letter-spacing: 3px;
     line-height: 45px;
-    background-image: url('/img/hill.png');
+    background-image: url('img/hill.png');
     background-attachment: fixed;
     height: 150vh;
 }

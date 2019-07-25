@@ -1,18 +1,14 @@
 @font-face{
     font-family: comfortaa;
-    src: url("/fonts/comfortaa.ttf");
-}
-@font-face{
-    font-family: april;
-    src: url("/fonts/April.otf");
+    src: url("fonts/Comfortaa.ttf");
 }
 @font-face{
     font-family: bebas;
-    src: url("/fonts/bebas.ttf");
+    src: url("fonts/bebas.ttf");
 }
 @font-face{
     font-family: major;
-    src: url("/fonts/MajorMonoDisplay.ttf");
+    src: url("fonts/MajorMonoDisplay.ttf");
 }
 html{
     scroll-behavior: smooth;
@@ -48,11 +44,12 @@ a{
 footer{
     padding: 20px;
     -webkit-background-clip: text;
-    background-image: url('/img/g.gif');
+    background-image: url('img/g.gif');
     -webkit-text-stroke: 0.01px #101010;
     color: transparent;
     letter-spacing: 5px;
 }
+
 
 
 

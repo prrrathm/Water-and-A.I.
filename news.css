@@ -1,5 +1,5 @@
 #news{
-    background-image: url('/img/robos.jpg'), linear-gradient(60deg, #101010, #101010);
+    background-image: url('img/robos.jpg'), linear-gradient(60deg, #101010, #101010);
     background-attachment: fixed;
     background-size: cover;
     font-size: 25px;
