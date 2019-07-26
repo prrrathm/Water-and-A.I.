@@ -14,3 +14,4 @@ function close_menu(){
     menu_closer.setAttribute('style','display: none;');
     menu_box.setAttribute('style','width: 0; border-left: 10px solid #303040;');
 }
+//document.getElementsByTagName('video').play();
